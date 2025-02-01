@@ -43,13 +43,13 @@ li a:hover:not(.active) {
 .contenedor {
     margin-left: 25%;
     padding: 10px 16px;
-    height: 1000px;   
-    animation: fadeIn 0.5s ease-in-out;
+    height: 100vh;   /* Asegura que el contenedor ocupe el 100% de la altura de la pantalla */
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center; /* Alinea el contenido al centro */
+    justify-content: center;  /* Centra el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
     text-align: center; /* Asegura que todo el texto esté centrado */
+    overflow: hidden; /* Evita que aparezca el scroll */
 }
 
 #titulo {
